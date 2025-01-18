@@ -13,4 +13,4 @@ plt.ylabel("pop") #linha vertical do grafico
 plt.title("Projeções da população mundial") #titulo do grafico
 plt.yticks([0, 2, 4, 6, 8, 10], # Coloca o grafico em perspectiva começando do numero 2
            ["0","2B", "4B", "6B", "8B", "10B"]) # lista com os nomes de exibição dos ticks
-plt.show
+plt.show # mostra o grafico

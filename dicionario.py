@@ -34,3 +34,22 @@ print(mundo)
 # que são indexados por um intervalo de numeros, os dicionarios é indexado por chaves exclusivar, que podem ser de qualquer tipo imutavel
 # quando usar?, se você tem um coleção de valores, onde a ordem é importante e deseja selecionar facilmente o subconjunto inteiro de dados, devem usar um lista 
 # se você precisa de algum tipo de tabela de pesquisa onde procura os dados, deve ser rapido e onde você pode especificar chaves exclusivas, o dicionario é a opção
+
+# Dictionary of dictionaries
+europe = { 'spain': { 'capital':'madrid', 'population':46.77 },
+           'france': { 'capital':'paris', 'population':66.03 },
+           'germany': { 'capital':'berlin', 'population':80.62 },
+           'norway': { 'capital':'oslo', 'population':5.084 } }
+
+
+# Print out the capital of France
+print(europe["france"]["capital"])
+
+# Create sub-dictionary data
+data = {"capital": "rome", "population": 59.83}
+
+# Add data to europe under key 'italy'
+europe["italy"] = data
+
+# Print europe
+print(europe)
